@@ -1,0 +1,8 @@
+fastapi
+pydantic
+uvicorn[standard]
+opencv-python
+# insightface
+onnxruntime
+qdrant-client
+python-multipart
