@@ -6,7 +6,9 @@ from app.core.config import settings
 collection_name = settings.COLLECTION_NAME
 
 client = QdrantClient(
-    url="http://192.168.1.190:6333"
+    # url="http://192.168.1.190:6333"
+    host="localhost",
+    port=6333,
 )
 
 # Create collection if not exists
