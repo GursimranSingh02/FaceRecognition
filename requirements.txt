@@ -2,7 +2,7 @@ fastapi
 pydantic
 uvicorn[standard]
 opencv-python
-# insightface
+insightface
 onnxruntime
 qdrant-client
 python-multipart
