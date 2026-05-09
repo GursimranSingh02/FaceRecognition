@@ -69,4 +69,8 @@ docker run -p 6333:6333 -p 6334:6334 -v ${PWD}/qdrant_storage:/qdrant/storage qd
 ## Run the server
 ```bash
 uvicorn app.main:app --host 0.0.0.0 --port 8080
+
+
+uvicorn app.main:app --reload
+
 ```
