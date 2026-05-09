@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Face Recognition</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="min-h-screen bg-zinc-50 text-zinc-950">
+  <main class="mx-auto flex min-h-screen w-full max-w-5xl flex-col justify-center px-6 py-12">
+    <section class="space-y-8">
+      <div class="space-y-3">
+        <p class="text-sm font-semibold uppercase tracking-wide text-emerald-700">Face Recognition</p>
+        <h1 class="max-w-3xl text-4xl font-bold tracking-tight sm:text-5xl">Register or detect a face</h1>
+        <p class="max-w-2xl text-base text-zinc-600 sm:text-lg">
+          Choose a workflow to enroll a new person or recognize a face from an uploaded or camera-captured photo.
+        </p>
+      </div>
+
+      <div class="grid gap-4 sm:grid-cols-2">
+        <a
+          href="/register"
+          class="group rounded-lg border border-zinc-200 bg-white p-6 shadow-sm transition hover:border-emerald-500 hover:shadow-md"
+        >
+          <div class="flex items-center justify-between gap-4">
+            <div>
+              <h2 class="text-xl font-semibold">Register Face</h2>
+              <p class="mt-2 text-sm text-zinc-600">Enroll a person with their name and face photo.</p>
+            </div>
+            <span class="flex h-11 w-11 items-center justify-center rounded-full bg-emerald-100 text-2xl text-emerald-700 transition group-hover:bg-emerald-600 group-hover:text-white">+</span>
+          </div>
+        </a>
+
+        <a
+          href="/detect"
+          class="group rounded-lg border border-zinc-200 bg-white p-6 shadow-sm transition hover:border-sky-500 hover:shadow-md"
+        >
+          <div class="flex items-center justify-between gap-4">
+            <div>
+              <h2 class="text-xl font-semibold">Detect Face</h2>
+              <p class="mt-2 text-sm text-zinc-600">Recognize a person from a photo.</p>
+            </div>
+            <span class="flex h-11 w-11 items-center justify-center rounded-full bg-sky-100 text-2xl text-sky-700 transition group-hover:bg-sky-600 group-hover:text-white">&#8594;</span>
+          </div>
+        </a>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
