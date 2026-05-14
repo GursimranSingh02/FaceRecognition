@@ -8,5 +8,7 @@ class Settings:
     VECTOR_SIZE = 512
     
     BASE_URL = os.getenv("BASE_URL", "http://192.168.1.80:8080")
+    QDRANT_CLOUD_URL = os.getenv("QDRANT_CLOUD_URL")
+    QDRANT_CLOUD_API_KEY = os.getenv("QDRANT_CLOUD_API_KEY")
 
 settings = Settings()
